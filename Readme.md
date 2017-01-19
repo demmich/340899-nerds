@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Багаутдинов Дамир](https://up.htmlacademy.ru/htmlcss/16/user/340899).
-* Наставник: [Игорь Дерябин](https://htmlacademy.ru/profile/id212247)
+* Студент: Багаутдинов Дамир(https://up.htmlacademy.ru/htmlcss/16/user/340899).
+* Наставник: Игорь Дерябин.
 
 ---
 
