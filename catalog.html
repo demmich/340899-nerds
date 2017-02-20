@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Nerds Каталог</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <a href="#">Логотип</a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a>Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="basket">
+          <a href="#">Корзина</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Магазин готовых шаблонов</h1>
+      <form action="http://nerds.websciurus.com/shop.html" method="get">
+        <fieldset>
+          <legend>СТОИМОСТЬ: </legend>
+          <div class="price-slider">
+          </div>
+          <label> ОТ
+            <input type="text" name="min-price" placeholder="0">
+          </label>
+          <label> ДО
+            <input type="text" name="max-price" placeholder="15000">
+          </label>
+          <legend>СЕТКА: </legend>
+          <label>
+            <input type="radio" name="net" value="adaptive"> Адапативная
+          </label>
+          <label>
+            <input type="radio" name="net" value="fixed"> Фиксированная
+          </label>
+          <label>
+            <input type="radio" name="net" value="rubber"> Резиновая
+          </label>
+          <legend>ОСОБЕННОСТИ: </legend>
+          <label>
+            <input type="checkbox" name="slider" checked> Слайдер
+          </label>
+          <label>
+            <input type="checkbox" name="div-advantages"> Блок преимуществ
+          </label>
+          <label>
+            <input type="checkbox" name="news" checked> Новости
+          </label>
+          <label>
+            <input type="checkbox" name="gallery" checked> Галерея
+          </label>
+          <label>
+            <input type="checkbox" name="basket" checked> Корзина
+          </label>
+        </fieldset>
+        <input type="submit" value="ПОКАЗАТЬ">
+      </form>
+      <ul class="sorting"> СОРТИРОВАТЬ:
+        <li><a href="#">ПО ЦЕНЕ</a>
+        </li>
+        <li><a href="#">ПО ТИПУ</a>
+        </li>
+        <li><a href="#">ПО НАЗВАНИЮ</a>
+        </li>
+        <li><a class="down" href="#"></a>
+        </li>
+        <li><a class="up" href="#"></a>
+        </li>
+      </ul>
+      <div class="catalog-items">
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Sedona</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Pink</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Борбершоп</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Mishka</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Academy</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <div class="catalog-item-info">
+            <h2>Кваст</h2>
+            <span>Информационный сайт для туристов</span>
+            <a class=btn-buy>9900 рублей</a>
+          </div>
+        </div>
+      </div>
+      <div class="page-paginator">
+        <a>1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Следующая</a>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="contacts">
+          <div class "contacts-pop">
+            <p>NЁRDS DESIGN STUDIO
+            <br>
+            350000, Краснодар, ул. Головатого, 100
+            <br> 
+            тел. +7 (861) 275-75-75</p>
+            <div class="btn-write-to-us">
+              <a href="#"> Напишите нам </a>
+            </div>
+          </div>
+        </div>
+        <section class="footer-social">
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-promo">
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей</p>
+        </section>
+      </div>
+    </footer>
+    <div class="form-popup">
+      <h2> Напишите нам </h2>
+      <form class="contact-form" action="http://nerds.websciurus.com/" method="get">
+        <label>Ваше имя:
+          <input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+        </label>
+        <label>Ваш e-mail:
+          <input type="text" name="e-mail" value="" placeholder="Для отправки ответа">
+        </label>
+        <label>Текст письма:
+          <input type="text" name="letter" value="" placeholder="В свободной форме">
+        </label>
+        <button class="btn-send" type="submit">ОТПРАВИТЬ</button>
+      </form>
+  </body>
+</html>
+
+
+
+
